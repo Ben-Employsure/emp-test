@@ -1,0 +1,59 @@
+@import "emp-home2.css";
+@import "emp-home2-codes.css";
+
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Italic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Light.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Light-Italic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Medium.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Medium-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Bold.ttf);
+    font-weight: 600;
+
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Bold-Italic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Heavy.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: Effra;
+    src: url(../fonts/Effra-Heavy-Italic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
