@@ -573,7 +573,7 @@ nav ul li ul li {
     width: 48%;
     padding-bottom: 20px;
 }
-.mktoForm .mktoFormRow:last-of-type {
+.mktoForm .mktoFormRow:last-child {
     width: 100%;
 }
 .mktoForm .mktoOffset {
