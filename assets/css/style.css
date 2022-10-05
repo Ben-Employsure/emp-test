@@ -803,12 +803,12 @@ nav ul li ul li {
         padding-bottom: 20px;
     }
     .mktoButtonRow {
-        display: flex;
+        display: flex!important;
         justify-content: center;
         width: 100%;
     }
     .mktoButtonWrap {
-        margin-left: 0;
+        margin-left: 0!important;
     }
     .footer--logo-col {
         width: 100%;
