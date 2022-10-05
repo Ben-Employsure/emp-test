@@ -576,6 +576,9 @@ nav ul li ul li {
 .mktoForm .mktoFormRow:last-of-type(1) {
     width: 100%!important;
 }
+.mktoForm .mktoLogicalField {
+    width: auto!important;
+}
 .mktoForm .mktoOffset {
     width: 0!important;
     height: 0;
