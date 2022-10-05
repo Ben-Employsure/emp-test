@@ -798,6 +798,10 @@ nav ul li ul li {
     .form--info, .form--input {
         width: 100%;
     }
+    .mktoForm .mktoFormRow {
+        width: 100%;
+        padding-bottom: 20px;
+    }
     .footer--logo-col {
         width: 100%;
     }
