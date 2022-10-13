@@ -227,6 +227,7 @@ nav li a {
     font-weight: 300;
     font-size: 1.125em;
     padding: 1rem;
+    display: inline-block;
 }
 nav ul > li {
     margin-right: 2rem;
