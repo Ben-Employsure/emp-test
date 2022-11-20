@@ -1,0 +1,12 @@
+body{background-color: transparent;}
+.test-form input[type="text"], .test-form input[type="email"], .test-form input[type="number"] {border: 0px; outline: 0px; background: transparent; border-bottom: 1px solid rgba(0,0,0,.3); padding: 8px 5px!important; font-size: .8rem; -webkit-box-shadow: none; box-shadow: none; color: #4a4a4a;}
+.test-form label {display:none;}
+.test-form sup {line-height: 1rem; font-size: .6rem;}
+.test-form input::placeholder {color: #4a4a4a;}
+.test-form .gform_fields {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.test-form .gfield--width-half {width: 49%;}
+.test-form .gform_footer {text-align: center;}
+.test-form .gform_button {color: white; border: 0; background-color: #f1b400; border-radius: 30px; padding: 10px 30px; font-size: 1.2rem; margin: 0 0 0 auto;}
+@media only screen and (max-width: 425px) {
+	.test-form .gfield--width-half {width: 99%;}
+	}
