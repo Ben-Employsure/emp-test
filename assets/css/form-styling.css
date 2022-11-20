@@ -1,11 +1,11 @@
 @charset "UTF-8";
 /*-- Remove Background Color --*/
-body{background-color: transparent;}
+body{background-color: transparent; margin: 0;}
 
 /*-- Form Custom Styling --*/
-.test-form input[type="text"], .test-form input[type="email"], .test-form input[type="number"] {border: 0px; outline: 0px; background: transparent; border-bottom: 1px solid rgba(0,0,0,.3); padding: 8px 5px!important; font-size: .8rem; -webkit-box-shadow: none; box-shadow: none; color: #4a4a4a;}
+.test-form input[type="text"], .test-form input[type="email"], .test-form input[type="number"] {border: 0px; outline: 0px; background: transparent; border-bottom: 1px solid rgba(0,0,0,.3); padding: 8px 5px!important; font-size: .8rem; -webkit-box-shadow: none; box-shadow: none; color: #4a4a4a; width: 100%;}
 .test-form label {display:none;}
-.test-form sup {line-height: 1rem; font-size: .6rem;}
+.test-form sup {line-height: 1rem; font-size: .6rem; padding: 5px 0 10px; display: inline-block;}
 .test-form input::placeholder {color: #4a4a4a;}
 .test-form .gform_fields {display: flex; flex-wrap: wrap; justify-content: space-between;}
 .test-form .gfield--width-half {width: 49%;}
