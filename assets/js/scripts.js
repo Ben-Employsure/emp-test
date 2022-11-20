@@ -1,1 +1,48 @@
-var images,checkbox=document.querySelector("#side-menu"),container=document.querySelector(".mobile-nav");checkbox.addEventListener("change",()=>{checkbox.checked?container.classList.add("open-menu"):container.classList.remove("open-menu")}),document.querySelectorAll("[data-open-dropdown]").forEach(function(e){e.addEventListener("click",function(){document.querySelector('[data-dropdown="'+e.getAttribute("data-open-dropdown")+'"]').classList.toggle("submenu-open")})});var searchGo=document.querySelector("#searchGo");if(searchGo.addEventListener("click",function(){document.getElementById("searchIndustry").value;var e=document.getElementById("searchCategory").value;window.location.href="https://employsure.com.au/guides/"+e+"/"}),"loading"in HTMLImageElement.prototype)document.querySelectorAll("img.lazyload").forEach(e=>{e.src=e.dataset.src});else{var e=document.createElement("script");e.async=!0,e.src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js",document.body.appendChild(e)}MktoForms2.loadForm("//mk.employsure.com.au","146-AHK-965",1264,function(e){e.onSuccess(function(o,t){return e.getFormElem().hide(),document.getElementById("confirmform").style.visibility="visible",!1})});
+// Mobile Menu
+var checkbox = document.querySelector("#side-menu");
+var container = document.querySelector(".mobile-nav");
+checkbox.addEventListener("change", () => {
+    if (checkbox.checked) {
+        container.classList.add("open-menu");
+    } else {
+        container.classList.remove("open-menu");
+    }
+});
+// Mobile Dropdowns
+document.querySelectorAll("[data-open-dropdown]").forEach(
+    function(e){
+      e.addEventListener("click", function(){
+        document.querySelector('[data-dropdown="' + e.getAttribute("data-open-dropdown") + '"]').classList.toggle("submenu-open");
+      })
+  });
+// Search Bar
+var searchGo = document.querySelector('#searchGo');
+searchGo.addEventListener("click", function(){
+    var searchIndustry = document.getElementById('searchIndustry').value;
+    var searchCategory = document.getElementById('searchCategory').value;
+    
+    //gtag('event', 'heroSearch', {
+    //    'event_label': searchIndustry,
+    //    'event_category': searchCategory
+    //  });
+    window.location.href = 'https://employsure.com.au/guides/' + searchCategory + '/';
+});
+
+// Lazy Loading
+  if ('loading' in HTMLImageElement.prototype) {
+      var images = document.querySelectorAll("img.lazyload");
+      images.forEach(img => {
+          img.src = img.dataset.src;
+      });
+  } else {
+      // Dynamically import the LazySizes library
+    var script = document.createElement("script");
+    script.async = true;
+    script.src = "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+    document.body.appendChild(script);
+  };
+
+// Gravity Form Scripts
+function resizeIframe(height){
+  document.getElementById('gForm').height = parseInt(height)+60;
+}
