@@ -44,5 +44,5 @@ searchGo.addEventListener("click", function(){
 
 // Gravity Form Scripts
 function resizeIframe(height){
-  document.getElementById('gForm').height = parseInt(height)+60;
+  document.getElementById('gForm').height = parseInt(height);
 }
