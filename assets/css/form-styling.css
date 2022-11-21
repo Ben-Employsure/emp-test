@@ -14,6 +14,6 @@ body{background-color: transparent; margin: 0;}
 .test-form .validation_message {color: red; margin-bottom: 10px; font-size: .8rem;}
 
 /*-- Full width fields on small screen --*/
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 500px) {
 .test-form .gfield--width-half {width: 99%;}
 }
