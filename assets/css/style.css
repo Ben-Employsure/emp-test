@@ -564,6 +564,9 @@ nav ul li ul li {
 .form--info p {
     font-size: 1.125rem;
 }
+#gForm {
+    overflow: hidden;
+}
 /* -- Footer Section -- */
 .footer {
     justify-content: space-between;
