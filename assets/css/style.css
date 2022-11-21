@@ -493,7 +493,6 @@ nav ul li ul li {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
-    /*max-width: 200px;*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -745,18 +744,6 @@ nav ul li ul li {
     }
     .form--info, .form--inputs {
         width: 100%;
-    }
-    .mktoForm .mktoFormRow {
-        width: 100%;
-        padding-bottom: 20px;
-    }
-    .mktoButtonRow {
-        display: flex!important;
-        justify-content: center;
-        width: 100%;
-    }
-    .mktoButtonWrap {
-        margin-left: 0!important;
     }
     .footer--logo-col {
         width: 100%;
