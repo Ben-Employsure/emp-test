@@ -20,11 +20,11 @@ var searchGo = document.querySelector('#searchGo');
 searchGo.addEventListener("click", function(){
     var searchIndustry = document.getElementById('searchIndustry').value;
     var searchCategory = document.getElementById('searchCategory').value;
-    
-    //gtag('event', 'heroSearch', {
-    //    'event_label': searchIndustry,
-    //    'event_category': searchCategory
-    //  });
+    // Google Tracking Event
+    gtag('event', 'heroSearch', {
+        'event_label': searchIndustry,
+        'event_category': searchCategory
+    });
     window.location.href = 'https://employsure.com.au/guides/' + searchCategory + '/';
 });
 
