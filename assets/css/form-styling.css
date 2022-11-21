@@ -10,7 +10,7 @@ body{background-color: transparent; margin: 0;}
 .test-form .gform_fields {display: flex; flex-wrap: wrap; justify-content: space-between;}
 .test-form .gfield--width-half {width: 49%;}
 .test-form .gform_footer {text-align: center;}
-.test-form .gform_button {color: white; border: 0; background-color: #f1b400; border-radius: 30px; padding: 10px 30px; font-size: 1.2rem; margin: 0 0 0 auto;}
+.test-form .gform_button {color: white; border: 0; background-color: #f1b400; border-radius: 30px; padding: 10px 30px; font-size: 1.2rem; cursor: pointer;}
 .test-form .validation_message {color: red; margin-bottom: 10px; font-size: .8rem;}
 
 /*-- Full width fields on small screen --*/
