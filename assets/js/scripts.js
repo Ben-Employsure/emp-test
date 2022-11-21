@@ -42,8 +42,7 @@ searchGo.addEventListener("click", function(){
     document.body.appendChild(script);
   };
 
-// Drifft Live Chat Initialise
-<!-- Start of Async Drift Code -->
+// Start of Async Drift Code
 !function() {
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
@@ -66,7 +65,6 @@ searchGo.addEventListener("click", function(){
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('b75uimmz3n9i');
-<!-- End of Async Drift Code -->
 
 // Gravity Form Scripts
 function resizeIframe(height){
