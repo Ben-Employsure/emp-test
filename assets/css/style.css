@@ -514,12 +514,12 @@ nav ul li ul li {
     text-align: center;
     width: 100%;
 }
-.news--big {
-    width: 66%;
+.news--post {
+    width: 33%;
     padding: 20px;
 }
-.news--sml {
-    width: 33%;
+.news--post:first-child {
+    width: 66%;
     padding: 20px;
 }
 .news--image {
@@ -739,7 +739,7 @@ nav ul li ul li {
     .about--employsure {
         flex-direction: column-reverse;
     }
-    .news--big, .news--sml {
+    .news--post {
         width: 75%;
     }
     .form--info, .form--inputs {
