@@ -738,7 +738,7 @@ nav ul li ul li {
     .about--employsure {
         flex-direction: column-reverse;
     }
-    .news--post {
+    .news--post, .news--post:first-child {
         width: 75%;
     }
     .form--info, .form--inputs {
