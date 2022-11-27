@@ -12,11 +12,8 @@ checkbox.addEventListener("change", () => {
 document.querySelectorAll("[data-open-dropdown]").forEach(
     function(e){
       e.addEventListener("click", function(){
-          if(e){
-            document.querySelector('[data-dropdown="' + e.getAttribute("data-open-dropdown") + '"]').classList.toggle("submenu-open");
-          } else {
-            document.querySelector('[data-dropdown]').classList.remove("submenu-open");
-          }
+        document.querySelector('[data-dropdown]').classList.remove("submenu-open");
+        document.querySelector('[data-dropdown="' + e.getAttribute("data-open-dropdown") + '"]').classList.toggle("submenu-open");
       })
   });
 // Search Bar
