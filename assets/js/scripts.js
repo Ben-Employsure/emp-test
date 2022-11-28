@@ -11,8 +11,7 @@ checkbox.addEventListener("change", () => {
 // Mobile Dropdowns
 document.querySelectorAll("[data-open-dropdown]").forEach(
     function(e){
-      e.addEventListener("click", function(){
-        document.querySelectorAll('[data-dropdown]').classList.remove("submenu-open");
+      e.addEventListener("click", function()
         document.querySelector('[data-dropdown="' + e.getAttribute("data-open-dropdown") + '"]').classList.toggle("submenu-open");
       })
   });
