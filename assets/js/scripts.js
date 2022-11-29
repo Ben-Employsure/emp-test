@@ -22,6 +22,7 @@ searchGo.addEventListener("click", function(){
     var searchCategory = document.getElementById('searchCategory').value;
     // Google Tracking Event
     gtag('event', 'heroSearch', {
+        'event_action': 'Click',
         'event_label': searchIndustry,
         'event_category': searchCategory
     });
