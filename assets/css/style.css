@@ -616,7 +616,9 @@ nav ul li ul li {
     font-size: 22px;
     text-align:center;
     font-weight: 300;
-    border-bottom: 1px solid #var(--pale-white);
+}
+.intro-text .row {
+    border-bottom: 1px solid var(--pale-white);
 }
 /* -- Media Queries -- */
 /* -- Desktop / Large Screens -- */
