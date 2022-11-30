@@ -615,7 +615,7 @@ nav ul li ul li {
 .intro-text {
     font-size: 22px;
     text-align:center;
-    font-weight: 300;
+    font-weight: 200;
 }
 .intro-text .row {
     border-bottom: 1px solid var(--pale-white);
