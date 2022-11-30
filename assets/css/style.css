@@ -612,7 +612,11 @@ nav ul li ul li {
     font-size: 1.5rem;
     padding: 5px;
 }
-
+.intro-text {
+    font-size: 22px;
+    text-align:center;
+    font-weight: 300;
+}
 /* -- Media Queries -- */
 /* -- Desktop / Large Screens -- */
 @media only screen and (max-width: 1250px) { 
